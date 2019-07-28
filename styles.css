@@ -24,8 +24,13 @@ header > h1 {
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 40px;
+	margin-block-end: 0.07em;
 }
 
+header > a {
+	margin-left: 15px;
+	margin-right: 15px;
+}
 
 .nav-bar {
 	text-align: center;
