@@ -82,3 +82,8 @@ header > a {
 	font-size: 36px;
 	text-align: center;
 }
+
+.result h3 {
+	font-size: 18px;
+	color: #4c4c4c;
+}
