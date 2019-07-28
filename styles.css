@@ -69,6 +69,12 @@ object {
 	text-align: left;
 	font-size: 18px;
 	margin-top: 50px;
-	margin-left: 280px;
-	margin-right: 280px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.result > h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 36px;
+	text-align: center;
 }
