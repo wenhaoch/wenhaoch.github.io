@@ -16,6 +16,8 @@ img {
 header {
 	background: white;
 	padding: 5px;
+	border-top-style: solid;
+	border-top-color: #2617cf;
 
 }
 
@@ -85,7 +87,14 @@ header > a {
 	text-align: center;
 }
 
-.result > h3 {
+.inner > h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.inner > h3 {
 	font-size: 18px;
 	font-weight: 400;
 	color: #4c4c4c;
