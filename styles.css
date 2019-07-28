@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Source+Sans+Pro:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Source+Sans+Pro:400,600&display=swap');
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -80,10 +80,12 @@ header > a {
 .result > h2 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 36px;
+	font-weight: 300;
 	text-align: center;
 }
 
 .result > h3 {
 	font-size: 18px;
+	font-weight: 400;
 	color: #4c4c4c;
 }
