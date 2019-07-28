@@ -9,7 +9,7 @@ object {
 	height: 1000%;
 }
 
-result > h2 {
+.result > h2 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 36px;
 	text-align: center;
