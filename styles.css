@@ -37,6 +37,16 @@ header > a {
 	margin-right: 15px;
 }
 
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	color: #505050;
+	text-align: center;
+}
+
 .nav-bar {
 	text-align: center;
 }
