@@ -55,16 +55,18 @@ header > a {
 	position: relative;
 	display: inline-block;
 	text-align: center;
-	color: black;
+	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
-	font-size: 26px;
+	font-size: 20px;
 	transition: all 0.2s ease;
 
 }
 
 .section-nav > img {
 	border-radius: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .section-nav:hover {
@@ -74,7 +76,7 @@ header > a {
 
 .nav-title {
 	position: absolute;
-	color: white;
+	color: black;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -90,14 +92,14 @@ header > a {
 
 .result > h2 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 36px;
+	font-size: 28px;
 	font-weight: 300;
 	text-align: center;
 }
 
 .inner > h2 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 36px;
+	font-size: 28px;
 	font-weight: 300;
 	text-align: center;
 }
