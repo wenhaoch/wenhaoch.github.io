@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#input").click(loadInputs);
+    $("#inputs").click(loadInputs);
     $("#training").click(loadTraining);
     $("#predictions").click(loadPredictions);
     $("#topH1").click(function() {
