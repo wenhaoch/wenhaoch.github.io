@@ -64,7 +64,7 @@ header > a {
 }
 
 .section-nav > img {
-	border-radius: 10px;
+	border-width: 10px;
 	border-color: black;
 	margin-left: 60px;
 	margin-right: 60px;

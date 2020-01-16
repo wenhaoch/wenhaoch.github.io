@@ -11,11 +11,11 @@ $(document).ready(function() {
     }
 
     function loadTraining() {
-    	$( "#body" ).load( "training.html #workBody" );
+    	$( "#body" ).load( "training.html #trainingBody" );
     }
 
     function loadPredictions() {
-    	$( "#body" ).load( "predictions.html #cipBody" );
+    	$( "#body" ).load( "predictions.html #predictionsBody" );
     }
 
 });
