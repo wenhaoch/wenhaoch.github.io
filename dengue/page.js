@@ -1,25 +1,21 @@
 $(document).ready(function() {
-    $("#education").click(loadEducation);
-    $("#work").click(loadWork);
-    $("#cip").click(loadCip);
-    $("#others").click(loadOthers);
+    $("#input").click(loadInputs);
+    $("#training").click(loadTraining);
+    $("#predictions").click(loadPredictions);
     $("#topH1").click(function() {
         location.reload();
     });
 
-    function loadEducation() {
-    	$( "#body" ).load( "education.html #educationBody" );
+    function loadInputs() {
+    	$( "#body" ).load( "inputs.html #inputsBody" );
     }
 
-    function loadWork() {
-    	$( "#body" ).load( "work.html #workBody" );
+    function loadTraining() {
+    	$( "#body" ).load( "training.html #workBody" );
     }
 
-    function loadCip() {
-    	$( "#body" ).load( "cip.html #cipBody" );
+    function loadPredictions() {
+    	$( "#body" ).load( "predictions.html #cipBody" );
     }
 
-    function loadOthers() {
-    	$( "#body" ).load( "others.html #othersBody" );
-    }
 });
