@@ -1,0 +1,28 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="inputsBody" class="inner">
+		<center><h2>Model Inputs</h2></center><br>
+		<p> The following inputs were used in the final Neural Network architecture that our team has developed:</p>
+		<ul>
+			<li>Mean dengue cases of periods T-12 to T-9, T-8 to T-5, and T-4 to T-1</li><br>
+			<li>Mean first-order differential of dengue levels of periods T-12 to T-9 and T-4 to T-1</li><br>
+			<li>Mean second-order differential of dengue levels from period T-4 to T-1</li><br>
+			<li>Population levels at period T+0</li><br>
+			<li>Maximum and mean values of rainfall from period T-3 to T+0 (Rainfall clusters 2,4,5,6,7,8,9,10,11)</li><br>
+			<li>Minimum and mean values of temperature from periods T-12 to T-8 and T-7 to T-4 (Temperature clusters 2,3,4)</li>
+		</ul>
+
+		<p> Final parameters for Nerual Network model</p>
+		<ul>
+			<li>4-layer network, with a two-third reduction in size from layer to layer</li><br>
+			<li>64 neurons for topmost layer</li><br>
+			<li>10,000 iterations for training</li><br>
+			<li>Adam optimisation algorithm</li><br>
+			<li>20 repeats for each training run</li>
+		</ul>
+	</div>
+</body>
+</html>
